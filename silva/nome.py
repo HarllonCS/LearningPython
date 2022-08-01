@@ -1,3 +1,3 @@
-nome = input("\nDigite o nome: ").title()
+nome = input("\nDigite o nome: ").title().upper()
 
-print("Silva" in nome)
+print("SILVA" in nome)
