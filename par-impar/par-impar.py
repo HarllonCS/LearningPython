@@ -7,5 +7,5 @@ if num%2 == 0 :
 else :
     print(f"\nO numero {num} eh impar!")
     
-print(f"\n{'-'*8}| Inicio |{'-'*8}")
+print(f"\n{'-'*8}| Fim |{'-'*8}")
     
