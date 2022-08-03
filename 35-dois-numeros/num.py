@@ -8,6 +8,6 @@ elif n2 > n1 :
     txt = "\nO 2º número é maior que o 1º!"
 
 else :
-    txt = "\nOs doisc números são iguais!"
+    txt = "\nOs dois números são iguais!"
     
 print(txt)
