@@ -8,7 +8,7 @@ print(f"\nTem {idade} anos.")
 if idade == 9 :
     txt = "\nAtleta Mirim."
 
-elif idade >= 10 and idade <= 14 :
+elif 14 >= idade >= 10 :
     txt = "\nAtleta Infantil."
     
 elif idade >= 15 and idade <= 19 :
