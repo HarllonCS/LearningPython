@@ -31,7 +31,7 @@ else :
     print("\nEssa opção não existe!")
     
     
-#print("\nResultado".upper())
+print("\nResultado".upper())
 
 usu_perdeu = (pc == 1 and usuario == 3) or (pc == 2 and usuario == 1) or (pc == 3 and usuario == 2)
 
