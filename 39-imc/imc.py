@@ -1,7 +1,7 @@
 peso = float(input("\nDigite o peso: "))
 altura = float(input("Digite a altura: "))
 
-imc = peso / altura**2
+imc = peso / (altura ** 2)
 
 print(f"\nSeu índice de Massa Corporal(IMC) é de {imc:.1f}kg/m2")
 
