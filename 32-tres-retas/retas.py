@@ -6,7 +6,7 @@ if (r2 + r3 > r1) and (r1 + r3 > r2) and (r1 + r2 > r3) :
     if r1 == r2 == r3 :
         txt = "\n\nTriângulo Equilátero."
         
-    elif r1 != r2 != r3 :
+    elif r1 != r2 != r3 != r1:
         txt = "\n\nTriângulo Escaleno."
     
     else :
