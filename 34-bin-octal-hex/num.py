@@ -6,13 +6,13 @@ print("\n1 - Binário\n2 - Octal\n3 - Hexadecimal")
 op = int(input("\nDigite aqui: "))
 
 if op == 1 :
-    txt = f"\nBinário: {bin(num)}"
+    txt = f"\nBinário: {bin(num)[2:]}"
     
 elif op == 2 :
-    txt = f"\nOctal: {oct(num)}"
+    txt = f"\nOctal: {oct(num)[2:]}"
     
 elif op == 3 :
-    txt = f"\nHexadecimal: {hex(num)}"
+    txt = f"\nHexadecimal: {hex(num)[2:]}"
     
 else :
     txt = "\nNão existe essa opção!"

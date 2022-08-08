@@ -40,11 +40,13 @@ usu_venceu = (usuario == 1 and pc == 3) or (usuario == 2 and pc == 1) or (usuari
 print(f"\nPC: {esc_pc}\nUsuário: {esc_usu}")
 
 if usu_venceu :
-    print("\nVocê é foda!".upper())
+    txt = "\nVocê é foda!".upper()
 
 elif usu_perdeu :
-    print("\nPerdeu otário!! Mais sorte na próxima vez...")
+    txt = "\nPerdeu otário!! Mais sorte na próxima vez..."
 
 else :
-    print("\nEmpate!!".upper())
+    txt = "\nEmpate!!".upper()
+    
+print(txt)
     

@@ -1,20 +1,24 @@
-from ast import alias
 from datetime import date as d
 
 ano_nasc = int(input("\nDigite seu ano de Nascimento: "))
 idade_alist = 18
-idade = d.today().year - ano_nasc
+ano_atual = d.today().year
+idade = ano_atual - ano_nasc
 
 print(f"\nVocê tem {idade} anos.")
 
 if idade < idade_alist :
-    txt = f"\nAinda faltam {idade_alist - idade} anos pra você se alistar."
+    saldo = idade_alist - idade
+    ano = ano_atual + saldo
+    txt = f"\nAinda faltam {saldo} anos pra você se alistar.\nVocê vai se alistar em {ano}."
     
 elif idade == idade_alist :
-    txt = f"\nHora de se alistar!"
+    txt = "\nHora de se alistar!"
 
 else :
-    txt = f"\nJá faz {idade - idade_alist} anos que seu alistamento passou do prazo."
+    saldo = idade - idade_alist
+    ano = ano_atual - saldo
+    txt = f"\nJá faz {saldo} anos que seu alistamento passou do prazo.\nVocê já se alistou em {ano}."
     
 print(txt)
     
