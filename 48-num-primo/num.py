@@ -12,4 +12,4 @@ if mult == 2 :
     print(f"\n{num} é primo!\nPois, ele divisível apenas por {mult} números: 1 e {num}")
 
 else :
-    print(f"\n{num} não é número primo, pois ele mútiplo de {mult} números.")
+    print(f"\n{num} não é número primo, pois ele é mútiplo de {mult} números.")
