@@ -1,5 +1,4 @@
 num = int(input("\nDigite um número: "))
-
 mult = 0
 
 for x in range(1, num+1) :

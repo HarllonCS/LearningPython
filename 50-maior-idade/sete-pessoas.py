@@ -1,14 +1,16 @@
+from datetime import date
+
 cont_maior = 0
 cont_menor = 0
+ano_atual = date.today().year
 
 for x in range(1, 8) :
     ano_nasc = int(input("\nDigite o ano de nascimento: "))
     
-    print(f"\nTem {2021 - ano_nasc} anos.")
+    print(f"\nTem {ano_atual - ano_nasc} anos.")
     
-    if (2021 - ano_nasc) >= 21 :
+    if ano_atual >= 21 :
         cont_maior += 1
-        
     else :
         cont_menor += 1
 
