@@ -6,7 +6,7 @@ for x in range(1, 8) :
     
     print(f"\nTem {2021 - ano_nasc} anos.")
     
-    if (2021 - ano_nasc) >= 18 :5
+    if (2021 - ano_nasc) >= 18 :
         cont_maior += 1
         
     else :
